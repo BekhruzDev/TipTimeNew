@@ -51,8 +51,6 @@ class MainActivity : AppCompatActivity() {
             binding.costOfService.isErrorEnabled = false
         }
     }
-
-
     private fun handleKeyEvent(view: View, keyCode: Int): Boolean {
         if (keyCode == KeyEvent.KEYCODE_ENTER) {
             // Hide the keyboard
